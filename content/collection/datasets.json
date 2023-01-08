@@ -1,0 +1,41 @@
+[
+  {
+    "title": "MATCH",
+    "source": "HEALTH INFORMATICS CENTRE - UNIVERSITY OF MANCHESTER",
+    "dialLevel": 5,
+    "metataDataLastUpdated": "",
+    "publishingFrequency": "STATIC",
+    "tags": [
+      "SARS-CoV-2",
+      "COVID-19",
+      "antibody",
+      "prevalence",
+      "surveillance"
+    ],
+    "summary": "2000 health care workers in NHS Tayside and from social care will have blood samples tested to detect antibodies to SARS-CoV-2, to identify undiagnosed asymptomatic healthcare worker infections with COVID-19.",
+    "viewCount": 389,
+    "accessTime": "1-2 months"
+  },
+  {
+    "title": "LIPSUM",
+    "source": "LOREM IPSUM",
+    "dialLevel": 3,
+    "metataDataLastUpdated": "",
+    "publishingFrequency": "MONTHLY",
+    "tags": ["lorem", "ipsum"],
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras accumsan lobortis turpis at fringilla. Donec et nibh interdum mi elementum ultricies ut ac erat. ",
+    "viewCount": 100,
+    "accessTime": "Other"
+  },
+  {
+    "title": "DOLOR SIT ATEM",
+    "source": "CONSECTETUR ADIPISCING ELIT",
+    "dialLevel": 4,
+    "metataDataLastUpdated": "",
+    "publishingFrequency": "WEEKLY",
+    "tags": ["dolor", "sit", "atem"],
+    "summary": "Cras dignissim id leo et mollis. Suspendisse euismod, tellus iaculis ultrices sodales, lacus tortor congue turpis, ac maximus risus neque quis odio. ",
+    "viewCount": 301,
+    "accessTime": "3 weeks"
+  }
+]

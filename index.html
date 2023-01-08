@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Heath Gatway POC</title>
+  </head>
+  <body id="collection">
+    <header class="main-header">
+      <nav>
+        <ul>
+          <li>
+            <figure class="logo" />
+          </li>
+          <li class="dropdown"><span>Explore</span></li>
+          <li class="dropdown"><span>Help</span></li>
+          <li class="dropdown"><span>Usage Data</span></li>
+          <li class="dropdown"><span>About Us</span></li>
+          <li><span>News</span</li>
+          <li><span>Community</span></li>
+          <li><button class="sign-in">Sign In</button></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="main-content" id="main-content">
+    </section>
+    <section class="sections" id="sections">
+        <nav>
+            <ul class="navigation">
+                <li class="selected">
+                    Datasets (50)
+                </li>
+                <li>
+                    Tools (0)
+                </li>
+                <li>
+                    Papers (0)
+                </li>
+                <li>
+                    Data Uses (0)
+                </li>
+                <li>
+                    People (0)
+                </li>
+                <li>
+                    Courses (0)
+                </li>
+                <li>
+                    Discussion (0)
+                </li>
+            </ul> 
+        </nav>
+        <div id="section-list" class="section-list"></div>
+    </section>
+    <section id="video-player-container" class="video-player-container">
+        <iframe id="ytplayer" width="560" height="315" src="https://www.youtube.com/embed/LzCW4P52UmE?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <button id="close-player" class="close-player">✖ Close</button>
+    </section>
+    <script src="scripts/youtube.js"></script>
+    <script src="scripts/collection_screen.js"></script>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+.main-header {
+  width: 100%;
+  min-height: 80px;
+  padding: 16px;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-size: 0.9rem;
+  box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 9%);
+}
+
+.main-header ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-header ul li {
+  color: #53575a;
+}
+
+.main-header ul li span:hover {
+  border-bottom: 2px solid #3db28c;
+}
+
+.main-header ul li.dropdown {
+  background: url("../media/down_arrow.svg") right -0.5rem no-repeat;
+  background-size: 16px;
+  padding-right: 20px;
+}
+.main-header ul li:not(:first-child) {
+  margin-top: 1.2rem;
+  margin-left: 24px;
+}
+
+.main-header .logo {
+  background: url("../media/logo.svg") center center no-repeat;
+  background-size: contain;
+  width: 111px;
+  height: 48px;
+  margin-top: 0;
+}
+
+.main-header button.sign-in {
+  position: absolute;
+  right: 16px;
+  top: 18px;
+  border: 2px solid rgb(61, 178, 140);
+  padding: 0.75rem 1rem;
+  background-color: #fff;
+  border-radius: 4px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.main-header button.sign-in:hover {
+  background-color: rgb(61, 178, 140);
+  color: #fff;
+}

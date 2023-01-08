@@ -1,0 +1,105 @@
+body,
+button {
+  font-family: "Museo Sans Rounded", sans-serif;
+  font-weight: 100;
+}
+
+body {
+  background: #fff;
+}
+
+button {
+  appearance: none;
+}
+
+.main-content {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 3rem;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+  line-height: 1.5;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.video-player-container {
+  flex-direction: column;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fffe;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-player-container button {
+  border: 0;
+  padding: 0.75rem 1rem;
+  background-color: rgb(61, 178, 140);
+  border-radius: 4px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+  box-sizing: border-box;
+  border-bottom: 2px solid #0004;
+  margin-top: 10px;
+}
+
+.video-player-container.show {
+  display: flex;
+}
+
+.video-player-container iframe {
+  border: 2px solid black;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-bottom: 1rem;
+}
+
+ol li {
+  margin-left: 2rem;
+}
+
+.main-content p {
+  margin-top: 1rem;
+}
+
+@media (min-width: 576px) {
+  .main-content {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 600px) {
+  .main-content {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-content {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-content {
+    max-width: 1024px;
+  }
+}
